@@ -1,0 +1,1 @@
+This project aims to rebuild the Google homepage using basic HTML and CSS learned through FCC and TOP.
