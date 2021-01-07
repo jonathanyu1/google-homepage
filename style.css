@@ -7,6 +7,72 @@
 }
 
 
+/* Top Nav Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li{
+    display:inline;
+}
+.topnav{
+    position:relative;
+    display: block;
+}
+
+/* Top Left Nav Bar */
+.top_left_nav{
+    float:left;
+    display: block;
+    position: relative;
+    padding: 23px;
+}
+
+.top_left_nav a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #3c4043;
+    margin-left: 10px;
+}
+
+/* Top Right Nav Bar */
+.top_right_nav{
+   text-align: right;
+   display: block;
+    position: relative;
+    padding: 7px;
+}
+
+.top_right_nav a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: #3c4043;
+    margin-left: 10px;
+}
+
+.top_right_nav button{
+    margin-left: 13px;
+}
+
+.google_apps{
+    background-color:transparent;
+    color: #3c4043;
+    border: none;
+}
+
+.sign_in{
+    margin-right: 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: transparent;
+    width: 70px;
+    height: 30px;
+    border-radius: 3px;
+}
 /* Main */
 
 #logoposition{
@@ -101,3 +167,4 @@
     font-size: 14px;
     color: #3c4043;
 }
+
