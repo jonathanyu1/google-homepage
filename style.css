@@ -9,7 +9,7 @@
 
 /* Main */
 
-.logoposition{
+#logoposition{
     text-align: center;
 }
 
@@ -36,6 +36,13 @@
     border-color: #E0E0E0;
     border-radius: 25px;
     border-width: thin;
+    font-size: 16px;
+    text-indent: 45px;
+}
+
+/* removes black outline when search bar clicked */
+.search_container input:focus{
+    outline-width: 0;
 }
 
 .search_container input:hover{
@@ -58,5 +65,39 @@
     width: 25px;
     right: 0px;
     margin-top: -33px;
-    margin-right: 13px;
+    margin-right: 10px;
+}
+
+/* search buttons */
+.search_buttons{
+    position: relative;
+    margin: 0 auto;
+    width: 275px;
+    display: block;
+}
+
+#google_search{
+    position: relative;
+    border-style: solid;
+    border-color:#f8f9fa;
+    background-color: #f8f9fa;
+    height: 40px;
+    width: 125px;
+    margin: 29px 0px 0px 0px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+}
+
+#feeling_lucky{
+    position: relative;
+    border-style: solid;
+    border-color:#f8f9fa;
+    background-color: #f8f9fa;
+    height: 40px;
+    width: 130px;
+    margin: 29px 0px 0px 15px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: #3c4043;
 }
