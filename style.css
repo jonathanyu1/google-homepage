@@ -72,6 +72,7 @@ li{
     width: 70px;
     height: 30px;
     border-radius: 3px;
+    font-weight: bold;
 }
 /* Main */
 
@@ -83,7 +84,7 @@ li{
     display:block;
     margin-left:auto;
     margin-right:auto;
-    margin-top: 195px;
+    margin-top: 150px;
     margin-bottom: 30px;
 }
 
@@ -168,3 +169,48 @@ li{
     color: #3c4043;
 }
 
+/* footer */
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color:#f2f2f2;;
+    color: white;
+    border-top: 1px solid #dadce0;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+/* Left footer */
+
+
+
+.left_footer{
+    float: left;
+}
+
+.left_footer a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    margin-left: 25px;
+}
+
+/* Right footer */
+
+.right_footer{
+    float: right;
+}
+
+.right_footer a{
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    margin-right: 25px;
+    
+}
